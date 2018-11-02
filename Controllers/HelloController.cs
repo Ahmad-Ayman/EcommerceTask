@@ -18,7 +18,7 @@ namespace Task1.Controllers
         }
         public string HelloWorld()
         {
-            return "Hello World";
+            return "Hello World From Github";
         }
     }
 }
