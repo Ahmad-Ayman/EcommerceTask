@@ -8,13 +8,17 @@ namespace Task1.Controllers
 {
     public class HelloController : Controller
     {
-        public String Index()
+        public string Index()
         {
             return "Welcome to Main Screen for Hello Controller";
         }
-        public String Welcome()
+        public string Welcome()
         {
             return "Welcome Page";
+        }
+        public string HelloWorld()
+        {
+            return "Hello World";
         }
     }
 }
